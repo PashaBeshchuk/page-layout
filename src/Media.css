@@ -1,0 +1,126 @@
+/* 1280px - 1440px */
+@media screen and (max-width: 1440px) {
+
+} 
+/* 1025px - 1280px */
+@media screen and (max-width: 1280px) {
+    .body__nav button { 
+        width: 108px;
+        height: 50px;
+        margin-top: 9px;
+    }
+    .header__contant {
+        width: 60%;
+        text-align: right;
+    }
+    .services__list {
+        width: 60%;
+    }
+    
+} 
+/* 768px - 1024px */
+@media screen and (max-width: 1024px) {
+    .body__nav button { 
+        margin-left: 36px;
+    } 
+    .header__contant {
+        width: 80%;
+        text-align: right;
+        padding-top: 120px;
+        height: 424px;
+    }
+    .content__box .text {
+        padding-top: 0%;
+    }
+    .body__nav .logo img {
+        width: 134px;
+        padding-top: 11px;
+    }
+    .body__nav .menu ul {
+        justify-content: space-around;
+    }
+    
+}
+/* 481px - 768px */
+@media screen and (max-width: 768px) {
+    .body__nav button { 
+        visibility: hidden;
+    }
+    .body__nav .logo img {
+        visibility: hidden;
+        position: absolute;
+    }
+    .contacts {
+        height: 250px;
+    }
+    .contacts__container {
+        flex-direction: column;
+    }
+    .contacts__container hr {
+        height: 1.5px;
+        width: 239px;
+    } 
+    .contacts__container div {
+        margin: 0 auto;
+    }
+    .contacts__container div:first-child {
+        margin-bottom: 20px;
+    }
+    .services .box-star {
+        width: 40%;
+    }
+    .services__list {
+        flex-direction: column;
+    }
+    .services__list hr {
+        width: 200px;
+        height: 1.5px;
+    }
+    .content__box {
+        flex-direction: column;
+    }
+    .content .text p {
+        width: 100%;
+    }
+    .content .text button {
+        width: 178px;
+        margin-bottom: 20px;
+    }
+    .content .text {
+        margin: 0 auto;
+    }
+    .content .image-mass, .image, .image-rheum {
+        width: 100%;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        position: absolute;
+    }
+
+} 
+/* 320px - 480px */
+@media screen and (max-width: 480px) {
+    .header__contant {
+        width: 90%;
+        padding-top: 0;
+        text-align: center;
+    }
+    .header__contant h1 {
+        text-align: center;
+    }
+    .header__contant h2 {
+        text-align: center;
+    }
+    .header__contant button {
+        right: 18%;
+    }
+    .body__nav .small-menu {
+        visibility: visible ;
+        position: relative;
+        left: -50px;
+    }
+    .body__nav .menu ul {
+        visibility: hidden;
+        position: absolute;
+    }
+}
